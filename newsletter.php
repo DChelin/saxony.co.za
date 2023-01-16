@@ -14,8 +14,9 @@
 		<?php endif; ?>
 		<?php
 //DEVDEV Fix - String missing form ID which was causing a PHP Uncuaght Error//
-		    $form_object = get_sub_field('form');
-		    echo do_shortcode('[gravityform id=1"' . $form_object['1'] . '" title="true" description="false" ajax="true"]');
+		    //$form_object = get_sub_field('form');
+		    //echo do_shortcode('[gravityform id=1" " title="true" description="false" ajax="true"]'); //. $form_object['1'] .'" title="true" description="false" ajax="true"]'); 
+            //echo do_shortcode( gravity_form( 'Newsltter Signup', $display_title = false, $display_description = false, $display_inactive = false, $field_values = null, $ajax = false, $tabindex, $echo = true );
 		?>
 	</div>
 </div>
